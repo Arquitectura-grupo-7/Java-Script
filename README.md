@@ -1,14 +1,14 @@
-Java-Script
+<b>Java-Script</b>
 
 Javascript: Compilador, Variables, Entradas por teclado, Estructuras secuenciales, Estructuras condicionales. Desarrollo de 2 ejemplos de cada tema.
 
 ¿Qué es y cual es el funcionamiento del lenguaje de programación Java-Script y sus principales estructuras ?
 
 
-OBJETIVO GENERAL:
+<b>OBJETIVO GENERAL:</b>
 Investigar los usos y estructuras principales de Javascript, por medio de la abstracción de información, para así poder conocer los usos que este tiene y posteriormente dar una explicación a la clase.
 
-OBJETIVOS ESPECÍFICOS:
+<b>OBJETIVOS ESPECÍFICOS:</b>
  - Identificar documentos recientes que tengan información acerca del lenguaje java script, para de esta manera conocer el objeto a investigar y las distintas aplicaciones en las que se encuentra.
 - Comprender los usos y funcionalidades del lenguaje de programación tratado, por medio de la abstracción de varias consultas acerca del tema.
 - Explicar las funcionalidades del lenguaje, de tal manera que esta sea comprensible y detallada.
@@ -27,9 +27,9 @@ OBJETIVOS ESPECÍFICOS:
 
 
 
-ESTADO DEL ARTE
+<b>ESTADO DEL ARTE</b>
 
-Repensar los bucles de JavaScript como combinadores
+<b>Repensar los bucles de JavaScript como combinadores</b>
  
 Prashant Singh,Rejo Mathew,Veerdhwaj Singh
 
@@ -46,7 +46,7 @@ La contribución de este tema fue promover el uso de combinadores de bucle sobre
 
 
 
-JavaScript: las partes (no) cubiertas
+<b>JavaScript: las partes (no) cubiertas</b>
  
 Amin Milani Fard,Ali Mesbah
  
@@ -66,7 +66,7 @@ Fecha añadida a IEEE Xplore: 18 de mayo de 2017
 
 
  
-Una solución para la ejecución de JavaScript en servidores de aplicaciones Java EE
+<b>Una solución para la ejecución de JavaScript en servidores de aplicaciones Java EE</b>
 Milan Vidaković,Stefan Ćosić,Ognjen Ćosić,Ivan Kaštelan,Gordana Velikić
 Lugar de la conferencia: Novi Sad, Serbia
 Facultad de Ciencias técnicas, Universidad de Novi Sad, Novi Sad, Serbia
@@ -93,14 +93,14 @@ Fecha añadida a IEEE Xplore : 30 de agosto de 2018
 
 
 
-MARCO TEÓRICO
+<b>MARCO TEÓRICO</b>
 
-¿Qué es javascript?
+<b>¿Qué es javascript?</b>
 JavaScript es un lenguaje utilizado para dotar de efectos y procesos dinámicos e “inteligentes” a documentos HTML. Un documento HTML viene siendo coloquialmente “una página web”. Así, podemos decir que el lenguaje JavaScript sirve para ejecutar acciones rápidas y efectos animados en  páginas web.
  Las acciones controladas por JavaScript pueden ser el despliegue de un menú, hacer aparecer, desaparecer o cambiar texto e imágenes, realizar cálculos y mostrar resultados, mostrar mensajes de aviso (por ejemplo si faltan datos en un formulario) y “efectos animados” en general. 
 Este lenguaje es principalmente utilizado por parte de programadores web para dar respuestas rápidas a las acciones del usuario sin necesidad de enviar la información de lo que ha hecho el usuario al servidor y esperar respuesta de éste (lo que haría más lento los procesos). El código JavaScript se carga al mismo tiempo que el código HTML en el navegador, y reside en el cliente (computador en el que nos encontramos), por lo que JavaScript sigue funcionando incluso aunque se produzca un corte en la conexión a internet (en este caso no podremos seguir navegando hacia otras direcciones web, pero sí podremos ejecutar procesos “locales” en nuestro computador para la página web en que nos encontráramos).
-Compiladores
-Google Closure Compiler
+<b>Compiladores
+<b>Google Closure Compiler
 
 No es realmente un compilador de código en el sentido normal, pero sí que se puede considerar un compilador porque compila, junta diferentes fragmentos de código y transforma de JavaScript a JavaScript mejorado.
 Google Closure Compiler es una herramienta que ayuda a optimizar y encontrar errores en el código JavaScript.
@@ -110,21 +110,21 @@ Elimina contenido innecesario para la ejecución, como los comentarios.
 Detecta código inútil que no se usa.
 Detecta código que contiene errores.
 
-AngularJS
+<b>AngularJS</b>
 Se trata de un framework MVC (Modelo Vista Controlador) de JavaScript de código abierto, desarrollado por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles. 
 Al usar un patrón MVVM (model view view-model) separamos la lógica de la de diseño pero mantenemos ambas partes conectadas (data binding). De manera que la capa visual no sabe lo que está pasando en la capa lógica pero manteniendo control sobre el DOM (el cuerpo de la web) y actualizar su contenido como queramos. (Green,2013)
 
-NodeJS
+<b>NodeJS</b>
 Es un entorno de tiempo de ejecución de JavaScript en tiempo real, que se encuentra de lado de servidor y utiliza un modelo asíncrono y dirigido por eventos. Incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript. 
 Se trata de una Máquina Virtual rápida y de gran calidad. Además las capacidades de Node.js para I/O (Entrada/Salida) son realmente ligeras y potentes, dando al desarrollador la posibilidad de utilizar toda la I/O del sistema. 
 Uno de sus puntos fuertes, es su capacidad de mantener muchas conexiones abiertas y esperando. (Gómez,2018)
 
-Variables
+<b>Variables</b>
 
 Una variable es un espacio de memoria donde se almacena un dato y se puede guardar cualquier tipo de información necesaria para realizar las acciones de nuestros programas. 
 
 
-Variables en Java Script
+<b>Variables en Java Script</b>
 Los nombres de las variables han de construirse con caracteres alfanuméricos, donde también se pueden añadir los signos subrayado, guión bajo (_) y el  dólar ($). 
 Algunas de las reglas para construir nombres para variables son:
 No pueden comenzar por un carácter numérico, tampoco con los signos (+),(-) o un espacio. 
@@ -139,11 +139,11 @@ Javascript en su versión ES6, tiene otros modos de declarar variables:
 Declaración let: Esta nueva manera de declarar las variables afecta a su ámbito, ya que son locales al bloque donde se están declarando.
 Declaración const: En realidad "const" no declara una variable sino una constante, que no puede variar su valor a lo largo de la ejecución de un programa.(Pérez, 2019)
 
-Estructuras secuenciales
+<b>Estructuras secuenciales</b>
 Cuando en un problema sólo participan operaciones, entradas y salidas se la denomina estructura secuencial.
 En JavaScript, como no se puede indicar el tipo de la variable, se requiere mucho más cuidado cuando operamos con sus contenidos.
 
-Entrada repetitiva do while
+<b>Entrada repetitiva do while</b>
 La sentencia do/while es una estructura repetitiva, la cual se utiliza cuando conocemos de antemano que por lo menos una vez se ejecutará el bloque repetitivo, a diferencia del while que puede no ejecutar el bloque.
 La condición de la estructura está abajo del bloque a repetir y finaliza la ejecución del bloque repetitivo cuando la condición retorna falso.
 Ejemplo:
@@ -160,7 +160,7 @@ console.log(result);
 
 
 
-Entrada repetitiva For
+<b>Entrada repetitiva For</b>
 Un bucle for se repite hasta que la condición especificada se evalúa como falsa.
 Cuando un bucle for se ejecuta, ocurre lo siguiente:
 La expresión de inicialización, si existe, se ejecuta. Esta expresión habitualmente inicializa uno o más contadores del bucle, pero la sintaxis permite una expresión con cualquier grado de complejidad. Esta expresión puede también declarar variables.
@@ -175,7 +175,7 @@ for (var i = 0; i < 9; i++) {
 }
          
 
- Entradas por teclado 
+ <b>Entradas por teclado</b> 
 
 En Informática, la "entrada" de un programa son los datos que llegan al programa desde el exterior. Actualmente, el origen más habitual es el teclado(Sintes,2018).
 
@@ -191,7 +191,7 @@ Si se  prueba en el editor online (entre etiquetas <script></script>), saldrá u
  Ejemplo:
 prompt("Indique su edad", 25);
 Normalmente se asignará  la respuesta del usuario a una variable, para realizar alguna acción definida en el programa. 
-Textarea
+<b>Textarea</b>
 El textarea es un elemento que presenta un lugar para escribir texto, igual que los campos text, pero con la particularidad de  que puede escribir varias líneas a la vez.
 Un campo textarea se consigue con la etiqueta <TEXTAREA>. Con el atributo name se puede  dar un nombre para acceder al campo textarea mediante Javascript. Otros atributos  son cols y rows que sirven para indicar la anchura y altura del campo textarea en caracteres, cols indica el número de columnas y rows el de filas. Sin embargo, no se puede acceder a ellos con Javascript. El valor por defecto de un campo textarea se coloca entre las etiqueta <TEXTAREA> y su correspondiente cierre(Álvarez,2003).
 Propiedades de textarea
@@ -225,7 +225,7 @@ Número de caracteres <input type="Text" name="numCaracteres" size="4">
 </html>
 
 
-Campo Text
+<b>Campo Text</b>
 Es el campo que resulta de escribir la etiqueta <INPUT type="text">. Se la usa para solicitar datos al usuario de la página.
 Propiedades del campo text
 defaultValue
@@ -268,7 +268,7 @@ Además, las instrucciones se pueden vincular:
         alert("El valor de la variable es menor que 100");
     }
             
-Switch
+<b>Switch</b>
 Por medio de switch se puede listar una serie de bloques de enunciados que se ejecuten dependiendo del valor de una variable(Pérez,2019).La sintaxis es:
 
     switch (variable){
@@ -350,19 +350,19 @@ Los enunciados se ejecutan
 
 
 
-DIAGRAMAS
+<b>DIAGRAMAS</b>
 
-Diagrama de flujo aplicación: “Adivina el número”
-
-
-
-Diagrama casos de uso-clase de la aplicación “Calculadora” 
+<b>Diagrama de flujo aplicación: “Adivina el número”</b>
 
 
-LISTA DE COMPONENTES
+
+<b>Diagrama casos de uso-clase de la aplicación “Calculadora” </b>
+
+
+<b>LISTA DE COMPONENTES</b>
 Estos son los recursos que se han utilizado a lo largo del desarrollo del trabajo de investigación.
  
-COMPONENTES
+<b>COMPONENTES</b>
 1.
 Atom:entorno de desarrollo para  los programas.
 2.
@@ -378,7 +378,7 @@ Google documentos
 7.
 LucidChart:herramienta usada para la elaboración de diagramas.
  
-MAPA DE VARIABLES
+<b>MAPA DE VARIABLES</b>
  
 Variables “Calculadora”
 Variables “Adivina numero”
@@ -405,13 +405,13 @@ Crea un espacio de memoria que se convertirá en la respuesta producto de la ope
 
 
  
- EXPLICACIÓN DE CÓDIGO FUENTE
-Programa “Adivina número”
+ <b>EXPLICACIÓN DE CÓDIGO FUENTE</b>
+<b>Programa “Adivina número”
 Primero el programa crea un número aleatorio del 1 al 10 mediante la función Math.floor((Math.random() *10) + 1); este número se compara con el valor ingresado por el usuario realizando una entrada por teclado mediante la función parseInt(prompt('Adivina el número que estoy pensando del 1 al 10')) 
 si la comparación de estos dos números son distintos surgirá un alert mediante una condición if en donde si el número es mayor mostrará el mensaje 'el número es mayor' y si no lo es mostrara lo contrario. 
 El proceso está condicionado por un while que mantendrá un bucle hasta que el número generado aleatoriamente por el computador deje de ser distinto al del usuario y en este caso surgirá un alert con las palabras: 'haz acertado'
  
-Programa “Calculadora”
+<b>Programa “Calculadora”</b>
 Primero el programa solicita que el usuario elija la operación a ejecutar mediante una estructura HTML posicionando botones, del mismo modo, se condiciona al botón a ejecutar cierta función una vez se dé click en él por ejemplo :
 <input type="button" class="boton rojo" value="suma" onclick="suma()" >
 para la función suma una vez el usuario digite mediante la función prompt el primer y segundo número a operar esta crea una segunda función la cual realiza la operación denominada suma 2
@@ -430,9 +430,9 @@ function suma2(num1, num2){
   return(valor);
 }
 El proceso se repite con el resto de operaciones en donde al momento de llegar a operaciones más avanzadas como potencia o raíz cuadrada se hizo vital la utilización de dos funciones preestablecidas llamadas  Math.pow y Math.sqrt respectivamente las cuales permiten el retorno del valor respuesta. 
-DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
+<b>DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 Aquí se especifica todas las herramientas necesarias tanto de hardware como software para el desarrollo y ejecución del proyecto.
-                            PRERREQUISITOS Y CONFIGURACIÓN
+                           <b> PRERREQUISITOS Y CONFIGURACIÓN</b>
 HARDWARE
 SOFTWARE
 Laptop
@@ -445,13 +445,13 @@ El código de JavaScript se ejecuta en el navegador web del visitante de la pág
 
 
  
-APORTACIONES
+<b>APORTACIONES</b>
 Java Script controla todo los procesos que hacen posible por ejemplo sumar en una calculadora, sin embargo, la interfaz es creada por un lenguaje de estilo para Javascript este lenguaje se conoce como CSS es por eso que se puede decorar de colores los botones para el programa de la calculadora, otro agregado es el estudio de funciones pues con estas el programador es capaz de crear un proceso y llamarlo cuando sea necesario ahorrando recursos y tiempo en el acto. 
 
 
 
   
-CONCLUSIONES
+<b>CONCLUSIONES</b>
 Se establece las conclusiones de cada asunto investigado, implicaciones para la teoría y resultados de las experiencias. Estos siempre estarán en relaciona los objetivos generales y específicos.
 Javascript es un lenguaje de programación que se emplea en la creación de páginas web, y que funciona integrándose con el HTML,además no necesita de compiladores ya que son los navegadores los que se encargan de leer el código.
 Las   estructuras condicionales de Javascript como if-else y switch,permiten ejecutar ciertas partes del código dependiendo si se cumplen o no con las condiciones establecidas,estos conceptos se fueron comprendiendo a través del desarrollo de los programas .
@@ -461,14 +461,14 @@ Se cumplió nuestro objetivo acerca de desarrollar ejemplos básicos donde se ev
 
 
 
-RECOMENDACIONES
+<b>RECOMENDACIONES</b>
 -El editor de código fuente o id en múltiples ocasiones puede representar una ayuda para el programador puesto que cuentan con múltiples facilidades para hacer el desarrollo más ameno, por tal motivo se escogió atom este es un editor de código fuente que cuenta con un autocompletado inteligente y en muchas ocasiones agiliza el trabajo 
 -Se recomienda que el programador tenga tendencias investigativas puesto que en la actualidad existen múltiples formas de desarrollar programas unas más eficientes que otras, por tal motivo, encontrar una manera de facilitar tu trabajo o hacerlo más eficaz siempre es recomendado para un programador.
 -Java Script es un lenguaje de programación interpretado,por tal motivo, su estructura amerita de un lenguaje de etiquetado como HTML y CSS para poder ofrecer de una interfaz más amigable al usuario, se recomienda tener una idea base de un lenguaje HTML o CSS para poder realizar trabajos de mayor envergadura. 
-CRONOGRAMA
+<b>CRONOGRAMA
 
  
-BIBLIOGRAFÍA:
+<b>BIBLIOGRAFÍA:</b>
 Green, B., & Seshadri, S. (2013). AngularJS. " O'Reilly Media, Inc.".
 Gómez, D., Flores, Á., & Ureta, R. (2018). Programación Node. JS. Caribeña de Ciencias Sociales, (mayo).
 Pérez, J. E. (2019). introducción a JavaScript.
@@ -483,7 +483,7 @@ Vidaković,M.(2018).Una solución para la ejecución de JavaScript en servidores
  
  
  
-Anexos
+<b>Anexos</b>
 
 
 
