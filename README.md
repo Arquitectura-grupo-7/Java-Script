@@ -1,6 +1,6 @@
 **JAVA-SCRIPT**
 <p> <li>¿Qué es y cual es el funcionamiento del lenguaje de programación Java-Script y sus principales estructuras? </li> </p>
-![Stitch](https://user-images.githubusercontent.com/65926175/83699741-831e4f80-a5ca-11ea-9e57-2f2ddeb039bf.png)
+
 **OBJETIVO GENERAL**
 <p> Investigar los usos y estructuras principales de Javascript, por medio de la abstracción de información, para así poder conocer los usos que este tiene y posteriormente dar una explicación a la clase </p>
 
