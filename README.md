@@ -54,7 +54,26 @@
 <p>Fecha añadida a IEEE Xplore : 30 de agosto de 2018</p>
 
 **MARCO TEÓRICO**
-*¿Qué es javascript?*
+<p> ¿Qué es javascript?</p>
+
+<p>JavaScript es un lenguaje utilizado para dotar de efectos y procesos dinámicos e “inteligentes” a documentos HTML. Un documento HTML viene siendo coloquialmente “una página web”. Así, podemos decir que el lenguaje JavaScript sirve para ejecutar acciones rápidas y efectos animados en  páginas web.</p>
+<p>Las acciones controladas por JavaScript pueden ser el despliegue de un menú, hacer aparecer, desaparecer o cambiar texto e imágenes, realizar cálculos y mostrar resultados, mostrar mensajes de aviso (por ejemplo si faltan datos en un formulario) y “efectos animados” en general.</p>
+<p>Este lenguaje es principalmente utilizado por parte de programadores web para dar respuestas rápidas a las acciones del usuario sin necesidad de enviar la información de lo que ha hecho el usuario al servidor y esperar respuesta de éste (lo que haría más lento los procesos). El código JavaScript se carga al mismo tiempo que el código HTML en el navegador, y reside en el cliente (computador en el que nos encontramos), por lo que JavaScript sigue funcionando incluso aunque se produzca un corte en la conexión a internet (en este caso no podremos seguir navegando hacia otras direcciones web, pero sí podremos ejecutar procesos “locales” en nuestro computador para la página web en que nos encontráramos).</p>
+
+*Compiladores*
+<p>Google Closure Compiler</p>
+
+<p>No es realmente un compilador de código en el sentido normal, pero sí que se puede considerar un compilador porque compila, junta     diferentes fragmentos de código y transforma de JavaScript a JavaScript mejorado.
+ Google Closure Compiler es una herramienta que ayuda a optimizar y encontrar errores en el código JavaScript.
+ ¿Qué hace? En el artículo Using Google’s Closure to Compile and Verify your JavaScript nos lo explican:
+ Junta diferentes ficheros de JavaScript en uno solo.
+ Elimina contenido innecesario para la ejecución, como los comentarios.
+ Detecta código inútil que no se usa.
+ Detecta código que contiene errores.</p>
+
+
+
+
 
 
  
