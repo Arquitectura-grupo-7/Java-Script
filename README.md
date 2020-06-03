@@ -60,7 +60,7 @@
 <p>Las acciones controladas por JavaScript pueden ser el despliegue de un menú, hacer aparecer, desaparecer o cambiar texto e imágenes, realizar cálculos y mostrar resultados, mostrar mensajes de aviso (por ejemplo si faltan datos en un formulario) y “efectos animados” en general.</p>
 <p>Este lenguaje es principalmente utilizado por parte de programadores web para dar respuestas rápidas a las acciones del usuario sin necesidad de enviar la información de lo que ha hecho el usuario al servidor y esperar respuesta de éste (lo que haría más lento los procesos). El código JavaScript se carga al mismo tiempo que el código HTML en el navegador, y reside en el cliente (computador en el que nos encontramos), por lo que JavaScript sigue funcionando incluso aunque se produzca un corte en la conexión a internet (en este caso no podremos seguir navegando hacia otras direcciones web, pero sí podremos ejecutar procesos “locales” en nuestro computador para la página web en que nos encontráramos).</p>
 
-*Compiladores*
+**Compiladores**
 <p>Google Closure Compiler</p>
 
 <p>No es realmente un compilador de código en el sentido normal, pero sí que se puede considerar un compilador porque compila, junta diferentes fragmentos de código y transforma de JavaScript a JavaScript mejorado.</p>
@@ -80,7 +80,7 @@
 <p>Se trata de una Máquina Virtual rápida y de gran calidad. Además las capacidades de Node.js para I/O (Entrada/Salida) son realmente ligeras y potentes, dando al desarrollador la posibilidad de utilizar toda la I/O del sistema.</p>}
 <p>Uno de sus puntos fuertes, es su capacidad de mantener muchas conexiones abiertas y esperando. (Gómez,2018)</p>
 
-*Variables*
+**Variables**
 <p>Una variable es un espacio de memoria donde se almacena un dato y se puede guardar cualquier tipo de información necesaria para realizar las acciones de nuestros programas.</p>
 <p>Algunas de las reglas para construir nombres para variables son:</p>
 <p><li>No pueden comenzar por un carácter numérico, tampoco con los signos (+),(-) o un espacio.</li></p>
@@ -93,6 +93,123 @@
 <p>Javascript en su versión ES6, tiene otros modos de declarar variables:</p>
 <p><li>Declaración let: Esta nueva manera de declarar las variables afecta a su ámbito, ya que son locales al bloque donde se están declarando.</li></p>
 <p><li>Declaración const: En realidad "const" no declara una variable sino una constante, que no puede variar su valor a lo largo de la ejecución de un programa.(Pérez, 2019)</li></p>
+
+**Estructuras secuenciales**
+<p>Son aquellas en la que una acción (instrucción) sigue a otra en secuencia. Las tareas se suceden de tal modo que la salida de una es la entrada de la siguiente y así sucesivamente hasta el fin del proceso.También se las puede identificar cuando en un problema solo participan operaciones, entradas y salidas.</p>
+<p>En JavaScript, como no se puede indicar el tipo de la variable, se requiere mucho más cuidado cuando operamos con sus contenidos.</p>
+
+**Estructuras iterativa**
+<p>Entrada repetitiva do while</P>
+<p>La sentencia do/while es una estructura repetitiva, la cual se utiliza cuando conocemos de antemano que por lo menos una vez se ejecutará el bloque repetitivo, a diferencia del while que puede no ejecutar el bloque.</p>
+<p>La condición de la estructura está abajo del bloque a repetir y finaliza la ejecución del bloque repetitivo cuando la condición retorna falso.</p>
+<p> Ejemplo </p>
+
+**IMAGEN AQUI**
+
+*Entrada repetitiva For*
+<p>Un bucle for se repite hasta que la condición especificada se evalúa como falsa.</p>
+<p>Cuando un bucle for se ejecuta, ocurre lo siguiente:</p>
+<p><li>La expresión de inicialización, si existe, se ejecuta. Esta expresión habitualmente inicializa uno o más contadores del bucle, pero la sintaxis permite una expresión con cualquier grado de complejidad. Esta expresión puede también declarar variables.</li></p>
+<p><li>Se evalúa la expresión condición. Si el valor de condición es verdadero, se ejecuta la sentencia del bucle. Si el valor de condición es falso, el bucle for finaliza. Si la expresión condición es omitida, la condición es asumida como verdadera.</li></p>
+<p><li>Se ejecuta la sentencia. Para ejecutar múltiples sentencias, use un bloque de sentencias ({ ... }) para agruparlas.</li></p>
+<p><li>Se ejecuta la expresión expresionIncremento, si hay una, y el control vuelve al paso 2. (Mohedano,2012)</li></p>
+<p>Ejemplo</p>
+**INGRESE IMAGEN AQUI**
+
+**Entradas por teclado**
+<p>En Informática, la "entrada" de un programa son los datos que llegan al programa desde el exterior. Actualmente, el origen más habitual es el teclado(Sintes,2018).</p>
+*Prompt()*
+<p>El método prompt () se utiliza para mostrar un cuadro de diálogo con un mensaje opcional que  nos permite solicitar información al visitante de la página. A menudo se usa si el usuario desea ingresar un valor antes de ir a una página.Entonces devuelve una cadena que contiene el texto ingresado por el usuario, o nulo.</p>
+*Sintaxis:*
+<p>mensaje (mensaje, predeterminado)</p>
+<p>-El mensaje es una cadena de texto para mostrar al usuario. Se puede omitir si no hay nada que mostrar en la ventana de solicitud, es decir, es opcional.</p>
+<p>-Default es una cadena que contiene el valor predeterminado que se muestra en el campo de entrada de texto. También es opcional.</p>
+<p>Ejemplo</p>
+<p>prompt("Indique su edad");</p>
+<p>Si se  prueba en el editor online (entre etiquetas <script></script>), saldrá un pop-up con el texto que se haya incluido y una casilla para introducir la información solicitada (datos numéricos o texto).Se puede incluir una respuesta por defecto. Esta se mostrará en la casilla y puede ser modificada por el visitante(Barrena,2017).</p>
+ <p>Ejemplo</p>
+ <p>prompt("Indique su edad", 25);</p>
+ <p>Normalmente se asignará  la respuesta del usuario a una variable, para realizar alguna acción definida en el programa.</p>
+ 
+*Texarea*
+<p>El textarea es un elemento que presenta un lugar para escribir texto, igual que los campos text, pero con la particularidad de  que puede escribir varias líneas a la vez.</p>
+<p>Un campo textarea se consigue con la etiqueta <TEXTAREA>. Con el atributo name se puede  dar un nombre para acceder al campo textarea mediante Javascript. Otros atributos  son cols y rows que sirven para indicar la anchura y altura del campo textarea en caracteres, cols indica el número de columnas y rows el de filas. Sin embargo, no se puede acceder a ellos con Javascript. El valor por defecto de un campo textarea se coloca entre las etiqueta <TEXTAREA> y su correspondiente cierre(Álvarez,2003).</p>
+
+*Propiedades de textarea*
+<p>Se puede ver una lista de las propiedades disponibles en un textarea a continuación, que son los mismos que un campo de texto.</p>
+<p>defaultValue: que contiene el valor por defecto del textarea.</p>
+<p>value:que contiene el texto que hay escrito en el textarea.</p>
+<p>Además tiene las conocidas propiedades de elementos de formulario form, name y type.</p>
+<p>El ejemplo que se muestra a continuación presenta un formulario que tiene un textarea y un botón. Al apretar el botón se cuenta el número de caracteres y se coloca en un campo de texto.Para acceder al número de caracteres lo hacemos a partir de la propiedad value del objeto textarea. Cómo value contiene un string podemos acceder a la propiedad length que tienen todos los strings para averiguar su longitud.</p>
+
+**INGRESE IMAGEN AQUI**
+
+*Campo Text*
+<p>Es el campo que resulta de escribir la etiqueta <INPUT type="text">. Se la usa para solicitar datos al usuario de la página.</p>
+ <p>Propiedades del campo text</p>
+ <p>defaultValue</p>
+<p>Es el valor por defecto que tiene un campo. Lo que contiene el atributo VALUE de la etiqueta <INPUT>.</p>
+<p><li>form:Hace referencia al formulario.</li></p>
+ <p><li>name:Contiene el nombre de este campo de formulario.</li></p>
+ <p><li>type:Contiene el tipo de campo de formulario que es.</li></p>
+ <p><li>value:El texto que hay escrito en el campo.</li></p>
+<p>A continuación se visualiza un ejemplo sobre lo que puede hacer la propiedad defaultValue. En este ejemplo se tiene un formulario y un botón de reset. Si se pulsa el botón de reset el campo de texto se vacía porque su value de HTML era un string vacío. Pero si pulsamos el botón siguiente llamamos a una función que cambia el valor por defecto de ese campo de texto, de modo que al pulsar el botón de reset mostrará el nuevo valor por defecto(Álvarez,2002).</p>
+
+**Estructuras condicionales**
+<p>Un script consiste en una lista de enunciados que se van ejecutando a medida que se cargan. Sin embargo, en ocasiones es necesario controlar el flujo de la ejecución estableciendo alternativas, es decir, que una serie de enunciados se ejecuten en algunas ocasiones y en otras no. Para permitir esto existen las estructuras condicionales.</p>
+*if...else*
+<p>medio de if se puede indicar una condición que, de cumplirse, permite la ejecución de uno o más enunciados(Castillo,2017). Por medio de else se puede establecer una alternativa, aunque su uso es opcional.La sintaxis de esta estructura es la siguiente:</p>
+
+**INGRESE IMAGEN AQUI**
+<p>Ejemplo</p>
+<p>En un programa  se desea lanzar una advertencia si el valor de una variable es mayor que 100, y otra si es mayor:</p>
+**INGRESE IMAGEN AQUI**
+
+<p>Además, las instrucciones se pueden vincular:</p>
+
+**INGRESE IMAGEN AQUI**
+*Switch*
+<p>Por medio de switch se puede listar una serie de bloques de enunciados que se ejecuten dependiendo del valor de una variable(Pérez,2019).La sintaxis es:</p>
+**INGRESE IMAGEN AQUI**
+<p>Ejemplo, analizar el valor de una variable y que dependiendo de éste se lanza un mensaje de alerta:</p>
+**INGRESE IMAGEN AQUI**
+<p>Es importante finalizar con un break en cada caso ya este  indica que el bloque de código puede dejar de interpretarse cuando se haya dado una coincidencia.Por otra parte la especificación de default: es opcional. En este caso, si no se emplease simplemente no se lanzaría ninguna alerta en caso de que el valor de nombrePersonaje no coincidiese con ninguno de los nombres recogidos en switch.</p>
+*Operadores lógicos*
+<p>Los operadores lógicos amplían las posibilidades de establecer condiciones. Son:</p>
+*Operadores lógicos, sus significados y su sintaxis*
+<p>En el caso de !, se emplea cuando lo que se quiere comprobar no es la existencia de un objeto o variable, sino su no existencia. </p>
+
+| **Negación**                  | **&& Y ** |   |    ** || O **       |
+| -------------                 | ------------- | ------------------  |
+|if(!condición1){ 
+    …enunciados…
+    }
+ |  Los enunciados se ejecutan   |
+ |  si no se cumple la condición |
+                    
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
