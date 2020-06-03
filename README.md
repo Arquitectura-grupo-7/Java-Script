@@ -179,13 +179,86 @@
 *Operadores lógicos, sus significados y su sintaxis*
 <p>En el caso de !, se emplea cuando lo que se quiere comprobar no es la existencia de un objeto o variable, sino su no existencia. </p>
 
-| **Negación**                  | **&& Y ** |   |    ** || O **       |
-| -------------                 | ------------- | ------------------  |
-|if(!condición1){ 
-    …enunciados…
-    }
- |  Los enunciados se ejecutan   |
- |  si no se cumple la condición |
+**INGRESE TABLA**
+
+**DIAGRAMAS**
+
+ *Diagrama de flujo aplicación: “Adivina el número”*
+
+**INGRESE IMAGEN AQUI**
+*Diagrama casos de uso-clase de la aplicación “Calculadora”*
+**INGRESE IMAGEN AQUI**
+**LISTA DE COMPONENTES**
+<p>Estos son los recursos que se han utilizado a lo largo del desarrollo del trabajo de investigación.</p>
+**INGRESE TABLA AQUI**
+
+**MAPA DE VARIABLES**
+**INGRESE TABLA AQUI**
+**EXPLICACIÓN DE CÓDIGO FUENTE**
+*Programa “Adivina número”*
+<p>Primero el programa crea un número aleatorio del 1 al 10 mediante la función Math.floor((Math.random() *10) + 1); este número se compara con el valor ingresado por el usuario realizando una entrada por teclado mediante la función parseInt(prompt('Adivina el número que estoy pensando del 1 al 10'))</p>
+<p>Si la comparación de estos dos números son distintos surgirá un alert mediante una condición if en donde si el número es mayor mostrará el mensaje 'el número es mayor' y si no lo es mostrara lo contrario.</p>
+<p>El proceso está condicionado por un while que mantendrá un bucle hasta que el número generado aleatoriamente por el computador deje de ser distinto al del usuario y en este caso surgirá un alert con las palabras: 'haz acertado'</p>
+*Programa “Calculadora*
+<p>Primero el programa solicita que el usuario elija la operación a ejecutar mediante una estructura HTML posicionando botones, del mismo modo, se condiciona al botón a ejecutar cierta función una vez se dé click en él por ejemplo :</p>
+<p><input type="button" class="boton rojo" value="suma" onclick="suma()" ></p>
+<p>para la función suma una vez el usuario digite mediante la función prompt el primer y segundo número a operar esta crea una segunda función la cual realiza la operación denominada suma 2.</p>
+<p>function suma(){</p>
+<p>numero1 = prompt('Introduce el primer numero entero');</p>
+<p>numero2 = prompt('Introduce el segundo numero entero');</p>
+<p>resultado = suma2(numero1,numero2);</p>
+ <p>alert(resultado);</p>
+<p>En la operación suma dos se lleva a cabo todo el proceso por el cual las dos variables van a ser sometidas para poder conseguir el resultado o valor que se mostrará mediante un alert.</p>
+
+**INGRESE IMAGEN AQUI**
+
+ <p>El proceso se repite con el resto de operaciones en donde al momento de llegar a operaciones más avanzadas como potencia o raíz cuadrada se hizo vital la utilización de dos funciones preestablecidas llamadas  Math.pow y Math.sqrt respectivamente las cuales permiten el retorno del valor respuesta. </p>
+ **DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
+ **INGRESE TABLA AQUI**
+ 
+ **APORTACIONES**
+ <p>Java Script controla todo los procesos que hacen posible por ejemplo sumar en una calculadora, sin embargo, la interfaz es creada por un lenguaje de estilo para Javascript este lenguaje se conoce como CSS es por eso que se puede decorar de colores los botones para el programa de la calculadora, otro agregado es el estudio de funciones pues con estas el programador es capaz de crear un proceso y llamarlo cuando sea necesario ahorrando recursos y tiempo en el acto. </p>
+ <p>Se propuso investigar la totalidad de las estructuras como es la iterativa entre ella sus múltiples tipo por ejemplo la sentencia do/while es una estructura repetitiva, la cual se utiliza cuando conocemos de antemano que por lo menos una vez se ejecutará el bloque repetitivo, a diferencia del while que puede no ejecutar el bloque.</p>
+ 
+ **CONCLUSIONES**
+ 
+<p><li>Javascript es un lenguaje de programación que se emplea en la creación de páginas web, y que funciona integrándose con el HTML,además no necesita de compiladores ya que son los navegadores los que se encargan de leer el código.</li></p>
+<p><li>Las estructuras condicionales de Javascript como if-else y switch,permiten ejecutar ciertas partes del código dependiendo si se cumplen o no con las condiciones establecidas,estos conceptos se fueron comprendiendo a través del desarrollo de los programas </li></p> <p><li>Se cumplió nuestro objetivo acerca de desarrollar ejemplos básicos donde se evidencie el  lenguaje Javascrip, esto debido a las investigaciones realizadas referentes a este lenguaje, su funcionamiento y características. De esta manera nuestras dos aplicaciones, tanto “calculadora” como “adivina número” se encuentran con un buen funcionamiento y listas para ser usadas.</li></p>
+
+**RECOMENDACIONES**
+
+<p><li>El editor de código fuente o id en múltiples ocasiones puede representar una ayuda para el programador puesto que cuentan con múltiples facilidades para hacer el desarrollo más ameno, por tal motivo se escogió atom este es un editor de código fuente que cuenta con un autocompletado inteligente y en muchas ocasiones agiliza el trabajo.</li></p> 
+<p><li>Se recomienda que el programador tenga tendencias investigativas puesto que en la actualidad existen múltiples formas de desarrollar programas unas más eficientes que otras, por tal motivo, encontrar una manera de facilitar tu trabajo o hacerlo más eficaz siempre es recomendado para un programador.</li></p>
+<p><li>-Java Script es un lenguaje de programación interpretado,por tal motivo, su estructura amerita de un lenguaje de etiquetado como HTML y CSS para poder ofrecer de una interfaz más amigable al usuario, se recomienda tener una idea base de un lenguaje HTML o CSS para poder realizar trabajos de mayor envergadura.</li> </p>
+
+**CRONOGRAMA**
+**INGRESE IMAGEN AQUI**
+**BIBLIOGRAFÍA**
+<p>Green, B., & Seshadri, S. (2013). AngularJS. " O'Reilly Media, Inc.".</p>
+<p>Gómez, D., Flores, Á., & Ureta, R. (2018). Programación Node. JS. Caribeña de Ciencias Sociales, (mayo).</p>
+<p>Pérez, J. E. (2019). introducción a JavaScript.</p>
+<p>Mohedano, J., Saiz, J. M., & Román, P. S. (2012). Iniciación a javascript. Ministerio de Educación.</p>
+<p>Castillo, A. A. (2017). Curso de Programación Web: JavaScript, Ajax y jQuery. IT Campus Academy.</p>
+<p>Pérez, J. E. (2019). introduccion a JavaScript.</p>
+<p>Navarrete, T. (2006). El lenguaje JavaScript. Argentina.</p>
+<p>Singh,P.(2015).Repensar los bucles de JavaScript como combinadores.</p>
+<p>Fard,A.M.(2017)JavaScript: las partes (no) cubiertas.</p>
+<p>Vidaković,M.(2018).Una solución para la ejecución de JavaScript en servidores de aplicaciones Java EE</p>
+**ANEXOS**
+**INGRESE MULTIPLES IMAGENES AQUI**
+
+
+
+
+
+
+
+
+
+
+
+
+
                     
 
 
