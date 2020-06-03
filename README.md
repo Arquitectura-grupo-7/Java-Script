@@ -54,7 +54,8 @@
 <p>Fecha añadida a IEEE Xplore : 30 de agosto de 2018</p>
 
 **MARCO TEÓRICO**
-<p> ¿Qué es javascript?</p>
+
+<p>¿Qué es javascript?</p>
 
 <p>JavaScript es un lenguaje utilizado para dotar de efectos y procesos dinámicos e “inteligentes” a documentos HTML. Un documento HTML viene siendo coloquialmente “una página web”. Así, podemos decir que el lenguaje JavaScript sirve para ejecutar acciones rápidas y efectos animados en  páginas web.</p>
 <p>Las acciones controladas por JavaScript pueden ser el despliegue de un menú, hacer aparecer, desaparecer o cambiar texto e imágenes, realizar cálculos y mostrar resultados, mostrar mensajes de aviso (por ejemplo si faltan datos en un formulario) y “efectos animados” en general.</p>
@@ -118,9 +119,11 @@
 
 **Entradas por teclado**
 <p>En Informática, la "entrada" de un programa son los datos que llegan al programa desde el exterior. Actualmente, el origen más habitual es el teclado(Sintes,2018).</p>
-*Prompt()*
+
+*Prompt*
 <p>El método prompt () se utiliza para mostrar un cuadro de diálogo con un mensaje opcional que  nos permite solicitar información al visitante de la página. A menudo se usa si el usuario desea ingresar un valor antes de ir a una página.Entonces devuelve una cadena que contiene el texto ingresado por el usuario, o nulo.</p>
-*Sintaxis:*
+
+*Sintaxis*
 <p>mensaje (mensaje, predeterminado)</p>
 <p>-El mensaje es una cadena de texto para mostrar al usuario. Se puede omitir si no hay nada que mostrar en la ventana de solicitud, es decir, es opcional.</p>
 <p>-Default es una cadena que contiene el valor predeterminado que se muestra en el campo de entrada de texto. También es opcional.</p>
