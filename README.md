@@ -65,11 +65,41 @@
 
 <p>No es realmente un compilador de código en el sentido normal, pero sí que se puede considerar un compilador porque compila, junta diferentes fragmentos de código y transforma de JavaScript a JavaScript mejorado.</p>
 <p>Google Closure Compiler es una herramienta que ayuda a optimizar y encontrar errores en el código JavaScript.</p>
-<p>¿Qué hace? En el artículo Using Google’s Closure to Compile and Verify your JavaScript nos lo explican:</p>
+<p>¿Qué hace? En el artículo Using Google’s Closure to Compile and Verify your JavaScript nos lo explican </p>
 <p><li>Junta diferentes ficheros de JavaScript en uno solo.</li></p>
 <p><li>Elimina contenido innecesario para la ejecución, como los comentarios.</li></p>
 <p><li>Detecta código inútil que no se usa.</li>/p>
 <p><li>Detecta código que contiene errores.</li></p>
+
+*AngularJS*
+<p>Se trata de un framework MVC (Modelo Vista Controlador) de JavaScript de código abierto, desarrollado por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.</p>
+<p>Al usar un patrón MVVM (model view view-model) separamos la lógica de la de diseño pero mantenemos ambas partes conectadas (data binding). De manera que la capa visual no sabe lo que está pasando en la capa lógica pero manteniendo control sobre el DOM (el cuerpo de la web) y actualizar su contenido como queramos. (Green,2013)</p>
+
+*NodeJS*
+<p>Es un entorno de tiempo de ejecución de JavaScript en tiempo real, que se encuentra de lado de servidor y utiliza un modelo asíncrono y dirigido por eventos. Incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript.</p>
+<p>Se trata de una Máquina Virtual rápida y de gran calidad. Además las capacidades de Node.js para I/O (Entrada/Salida) son realmente ligeras y potentes, dando al desarrollador la posibilidad de utilizar toda la I/O del sistema.</p>}
+<p>Uno de sus puntos fuertes, es su capacidad de mantener muchas conexiones abiertas y esperando. (Gómez,2018)</p>
+
+*Variables*
+<p>Una variable es un espacio de memoria donde se almacena un dato y se puede guardar cualquier tipo de información necesaria para realizar las acciones de nuestros programas.</p>
+<p>Algunas de las reglas para construir nombres para variables son:</p>
+<p><li>No pueden comenzar por un carácter numérico, tampoco con los signos (+),(-) o un espacio.</li></p>
+<p><li>Se debe evitar utilizar nombres reservados como variables, así como return o for.</li></p>
+<p><li>Los nombres son sensibles a mayúsculas y minúsculas, ya que al escribirlos con este error se creará una variable diferentes que no tendrá el dato que se espera.</li><p>
+<p><li>Javascript es un lenguaje bastante permisivo, y en este caso otorga un poco de libertad a la hora de declarar las variables, puesto que no estamos obligados a hacerlo como en otros lenguajes que son muy estrictos en este punto.</li>
+<p><li>Javascript cuenta con la palabra "var" la cual será utilizada para declarar una o varias variables.</li></p>
+<p><li>También se permite declarar varias variables en la misma línea, siempre que se separen por comas.</li></p>
+<p><li>Pueden ser globales, son accesibles en toda la página web. Pueden ser locales, son accesibles sólo en el ámbito en el que fueron declaradas</li></p>
+<p>Javascript en su versión ES6, tiene otros modos de declarar variables:</p>
+<p><li>Declaración let: Esta nueva manera de declarar las variables afecta a su ámbito, ya que son locales al bloque donde se están declarando.</li></p>
+<p><li>Declaración const: En realidad "const" no declara una variable sino una constante, que no puede variar su valor a lo largo de la ejecución de un programa.(Pérez, 2019)</li></p>
+
+
+
+ 
+ 
+
+
 
 
 
