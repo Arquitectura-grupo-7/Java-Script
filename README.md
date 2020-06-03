@@ -63,13 +63,14 @@
 *Compiladores*
 <p>Google Closure Compiler</p>
 
-<p>No es realmente un compilador de código en el sentido normal, pero sí que se puede considerar un compilador porque compila, junta     diferentes fragmentos de código y transforma de JavaScript a JavaScript mejorado.
- Google Closure Compiler es una herramienta que ayuda a optimizar y encontrar errores en el código JavaScript.
- ¿Qué hace? En el artículo Using Google’s Closure to Compile and Verify your JavaScript nos lo explican:
- Junta diferentes ficheros de JavaScript en uno solo.
- Elimina contenido innecesario para la ejecución, como los comentarios.
- Detecta código inútil que no se usa.
- Detecta código que contiene errores.</p>
+<p>No es realmente un compilador de código en el sentido normal, pero sí que se puede considerar un compilador porque compila, junta diferentes fragmentos de código y transforma de JavaScript a JavaScript mejorado.</p>
+<p>Google Closure Compiler es una herramienta que ayuda a optimizar y encontrar errores en el código JavaScript.</p>
+<p>¿Qué hace? En el artículo Using Google’s Closure to Compile and Verify your JavaScript nos lo explican:</p>
+<p><li>Junta diferentes ficheros de JavaScript en uno solo.</li></p>
+<p><li>Elimina contenido innecesario para la ejecución, como los comentarios.</li></p>
+<p><li>Detecta código inútil que no se usa.</li>/p>
+<p><li>Detecta código que contiene errores.</li></p>
+
 
 
 
