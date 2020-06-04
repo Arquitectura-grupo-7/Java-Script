@@ -220,6 +220,7 @@
 
 
 ***MAPA DE VARIABLES***
+
 ![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen%2011.jpg)
 
 
@@ -249,12 +250,14 @@
 
 
  <p>El proceso se repite con el resto de operaciones en donde al momento de llegar a operaciones más avanzadas como potencia o raíz cuadrada se hizo vital la utilización de dos funciones preestablecidas llamadas  Math.pow y Math.sqrt respectivamente las cuales permiten el retorno del valor respuesta. </p>
+ 
  **DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
  
  ![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen%2013.jpg)
  
  
  **APORTACIONES**
+ 
  <p>Java Script controla todo los procesos que hacen posible por ejemplo sumar en una calculadora, sin embargo, la interfaz es creada por un lenguaje de estilo para Javascript este lenguaje se conoce como CSS es por eso que se puede decorar de colores los botones para el programa de la calculadora, otro agregado es el estudio de funciones pues con estas el programador es capaz de crear un proceso y llamarlo cuando sea necesario ahorrando recursos y tiempo en el acto. </p>
  <p>Se propuso investigar la totalidad de las estructuras como es la iterativa entre ella sus múltiples tipo por ejemplo la sentencia do/while es una estructura repetitiva, la cual se utiliza cuando conocemos de antemano que por lo menos una vez se ejecutará el bloque repetitivo, a diferencia del while que puede no ejecutar el bloque.</p>
  
