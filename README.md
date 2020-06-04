@@ -203,10 +203,15 @@
 
  **Diagrama de flujo aplicación: “Adivina el número”**
  
+ <p> El programa inicia solicitando datos, una vez estos sean ingresados,se dirigirá a dos condiciones una en la que compara el numeroUsuario y el numeroCPU si son iguales imprimirá Has acertado si no lo son llegara a la otra condición donde me indicara si el número es mayor o menor y de esta manera hasta que logremos acertar y de esta manera sea el númeroUsuario igual al númeroCPU.</p>
+ 
 ![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen%208.jpg)
 
 
 **Diagrama casos de uso-clase de la aplicación “Calculadora”**
+
+<p>En este diagrama se puede evidenciar de una manera más didáctica el funcionamiento de nuestra aplicación calculadora, mostrado desde el punto de vista de un usuario y del programa. Es así que el usuario desea usar esta aplicación y para ello debe cumplir con los pasos de ingresar, seleccionar la operación a realizar, escribir el primer y segundo número y posteriormente obtener un resultado; mientras tanto el programa debe verificar la operación seleccionada, procesar los valores y dar el resultado.</p>
+
 ![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen%209.jpg)
 
 
