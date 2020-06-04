@@ -107,9 +107,9 @@
 <p>La condición de la estructura está abajo del bloque a repetir y finaliza la ejecución del bloque repetitivo cuando la condición retorna falso.</p>
 <p> Ejemplo </p>
 
-**IMAGEN AQUI**
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/imagen1.jpg)
 
-*Entrada repetitiva For*
+**Entrada repetitiva For**
 <p>Un bucle for se repite hasta que la condición especificada se evalúa como falsa.</p>
 <p>Cuando un bucle for se ejecuta, ocurre lo siguiente:</p>
 <p><li>La expresión de inicialización, si existe, se ejecuta. Esta expresión habitualmente inicializa uno o más contadores del bucle, pero la sintaxis permite una expresión con cualquier grado de complejidad. Esta expresión puede también declarar variables.</li></p>
@@ -117,7 +117,8 @@
 <p><li>Se ejecuta la sentencia. Para ejecutar múltiples sentencias, use un bloque de sentencias ({ ... }) para agruparlas.</li></p>
 <p><li>Se ejecuta la expresión expresionIncremento, si hay una, y el control vuelve al paso 2. (Mohedano,2012)</li></p>
 <p>Ejemplo</p>
-**INGRESE IMAGEN AQUI**
+
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen2.jpg)
 
 **Entradas por teclado**
 <p>En Informática, la "entrada" de un programa son los datos que llegan al programa desde el exterior. Actualmente, el origen más habitual es el teclado(Sintes,2018).</p>
@@ -147,7 +148,7 @@
 <p>Además tiene las conocidas propiedades de elementos de formulario form, name y type.</p>
 <p>El ejemplo que se muestra a continuación presenta un formulario que tiene un textarea y un botón. Al apretar el botón se cuenta el número de caracteres y se coloca en un campo de texto.Para acceder al número de caracteres lo hacemos a partir de la propiedad value del objeto textarea. Cómo value contiene un string podemos acceder a la propiedad length que tienen todos los strings para averiguar su longitud.</p>
 
-**INGRESE IMAGEN AQUI**
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen3.jpg)
 
 **Campo Text**
 <p>Es el campo que resulta de escribir la etiqueta <INPUT type="text">. Se la usa para solicitar datos al usuario de la página.</p>
@@ -165,24 +166,24 @@
 **if...else**
 <p>medio de if se puede indicar una condición que, de cumplirse, permite la ejecución de uno o más enunciados(Castillo,2017). Por medio de else se puede establecer una alternativa, aunque su uso es opcional.La sintaxis de esta estructura es la siguiente:</p>
 
-**INGRESE IMAGEN AQUI**
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen4.jpg)
 <p>Ejemplo</p>
 <p>En un programa  se desea lanzar una advertencia si el valor de una variable es mayor que 100, y otra si es mayor:</p>
 **INGRESE IMAGEN AQUI**
 
 <p>Además, las instrucciones se pueden vincular:</p>
 
-**INGRESE IMAGEN AQUI**
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen5.jpg)
 
 **Switch**
 
 <p>Por medio de switch se puede listar una serie de bloques de enunciados que se ejecuten dependiendo del valor de una variable(Pérez,2019).La sintaxis es:</p>
 
-**INGRESE IMAGEN AQUI**
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen6.jpg)
 
 <p>Ejemplo, analizar el valor de una variable y que dependiendo de éste se lanza un mensaje de alerta:</p>
 
-**INGRESE IMAGEN AQUI**
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen7.jpg)
 
 <p>Es importante finalizar con un break en cada caso ya este  indica que el bloque de código puede dejar de interpretarse cuando se haya dado una coincidencia.Por otra parte la especificación de default: es opcional. En este caso, si no se emplease simplemente no se lanzaría ninguna alerta en caso de que el valor de nombrePersonaje no coincidiese con ninguno de los nombres recogidos en switch.</p>
 
@@ -194,25 +195,25 @@
 
 <p>En el caso de !, se emplea cuando lo que se quiere comprobar no es la existencia de un objeto o variable, sino su no existencia. </p>
 
-**INGRESE TABLA**
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen8.jpg)
 
 ***DIAGRAMAS***
 
  **Diagrama de flujo aplicación: “Adivina el número”**
 
-**INGRESE IMAGEN AQUI**
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen9.jpg)
 
 **Diagrama casos de uso-clase de la aplicación “Calculadora”**
 
-**INGRESE IMAGEN AQUI**
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen10.jpg)
 
 **LISTA DE COMPONENTES**
 <p>Estos son los recursos que se han utilizado a lo largo del desarrollo del trabajo de investigación.</p>
-**INGRESE TABLA AQUI**
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen11.jpg)
 
 ***MAPA DE VARIABLES***
 
-**INGRESE TABLA AQUI**
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen12.jpg)
 
 ***EXPLICACIÓN DE CÓDIGO FUENTE***
 
@@ -236,11 +237,11 @@
  <p>alert(resultado);</p>
 <p>En la operación suma dos se lleva a cabo todo el proceso por el cual las dos variables van a ser sometidas para poder conseguir el resultado o valor que se mostrará mediante un alert.</p>
 
-**INGRESE IMAGEN AQUI**
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen3.jpg)
 
  <p>El proceso se repite con el resto de operaciones en donde al momento de llegar a operaciones más avanzadas como potencia o raíz cuadrada se hizo vital la utilización de dos funciones preestablecidas llamadas  Math.pow y Math.sqrt respectivamente las cuales permiten el retorno del valor respuesta. </p>
  **DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
- **INGRESE TABLA AQUI**
+ ![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen3.jpg)
  
  **APORTACIONES**
  <p>Java Script controla todo los procesos que hacen posible por ejemplo sumar en una calculadora, sin embargo, la interfaz es creada por un lenguaje de estilo para Javascript este lenguaje se conoce como CSS es por eso que se puede decorar de colores los botones para el programa de la calculadora, otro agregado es el estudio de funciones pues con estas el programador es capaz de crear un proceso y llamarlo cuando sea necesario ahorrando recursos y tiempo en el acto. </p>
@@ -259,7 +260,7 @@
 
 ***CRONOGRAMA***
 
-**INGRESE IMAGEN AQUI**
+![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen3.jpg)
 
 ***BIBLIOGRAFÍA***
 
