@@ -1,16 +1,16 @@
-**JAVA-SCRIPT**
+***JAVA-SCRIPT***
 <p> <li>¿Qué es y cual es el funcionamiento del lenguaje de programación Java-Script y sus principales estructuras? </li> </p>
 
-**OBJETIVO GENERAL**
+***OBJETIVO GENERAL***
 <p> Investigar los usos y estructuras principales de Javascript, por medio de la abstracción de información, para así poder conocer los usos que este tiene y posteriormente dar una explicación a la clase </p>
 
-**OBJETIVOS ESPECÍFICOS**
+***OBJETIVOS ESPECÍFICOS***
 <p> <li>Identificar documentos recientes que tengan información acerca del lenguaje java script, para de esta manera conocer el objeto a investigar y las distintas aplicaciones en las que se encuentra.</li> </p>
 <p> <li>Comprender los usos y funcionalidades del lenguaje de programación tratado, por medio de la abstracción de varias consultas acerca del tema.   </li></p>
 <p> <li>Explicar las funcionalidades del lenguaje, de tal manera que esta sea comprensible y detallada. </li></p> 
 <p> <li> Desarrollar ejemplos básicos donde se evidencie el  lenguaje ya antes mencionado. </li></p>
 
-**ESTADO DEL ARTE**
+***ESTADO DEL ARTE***
 
 **Repensar los bucles de JavaScript como combinadores**
 
@@ -53,7 +53,7 @@
 <p>Fecha de la conferencia: 30-31 de mayo de 2018</p>
 <p>Fecha añadida a IEEE Xplore : 30 de agosto de 2018</p>
 
-**MARCO TEÓRICO**
+***MARCO TEÓRICO***
 
 <p>¿Qué es javascript?</p>
 
@@ -72,12 +72,12 @@
 <p><li>Detecta código inútil que no se usa.</li></p>
 <p><li>Detecta código que contiene errores.</li></p>
 
-*AngularJS*
+**AngularJS**
 
 <p>Se trata de un framework MVC (Modelo Vista Controlador) de JavaScript de código abierto, desarrollado por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.</p>
 <p>Al usar un patrón MVVM (model view view-model) separamos la lógica de la de diseño pero mantenemos ambas partes conectadas (data binding). De manera que la capa visual no sabe lo que está pasando en la capa lógica pero manteniendo control sobre el DOM (el cuerpo de la web) y actualizar su contenido como queramos. (Green,2013)</p>
 
-*NodeJS*
+**NodeJS**
 
 <p>Es un entorno de tiempo de ejecución de JavaScript en tiempo real, que se encuentra de lado de servidor y utiliza un modelo asíncrono y dirigido por eventos. Incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript.</p>
 <p>Se trata de una Máquina Virtual rápida y de gran calidad. Además las capacidades de Node.js para I/O (Entrada/Salida) son realmente ligeras y potentes, dando al desarrollador la posibilidad de utilizar toda la I/O del sistema.</p>}
@@ -122,10 +122,10 @@
 **Entradas por teclado**
 <p>En Informática, la "entrada" de un programa son los datos que llegan al programa desde el exterior. Actualmente, el origen más habitual es el teclado(Sintes,2018).</p>
 
-*Prompt*
+**Prompt**
 <p>El método prompt () se utiliza para mostrar un cuadro de diálogo con un mensaje opcional que  nos permite solicitar información al visitante de la página. A menudo se usa si el usuario desea ingresar un valor antes de ir a una página.Entonces devuelve una cadena que contiene el texto ingresado por el usuario, o nulo.</p>
 
-*Sintaxis*
+**Sintaxis**
 <p>mensaje (mensaje, predeterminado)</p>
 <p>-El mensaje es una cadena de texto para mostrar al usuario. Se puede omitir si no hay nada que mostrar en la ventana de solicitud, es decir, es opcional.</p>
 <p>-Default es una cadena que contiene el valor predeterminado que se muestra en el campo de entrada de texto. También es opcional.</p>
@@ -136,11 +136,11 @@
  <p>prompt("Indique su edad", 25);</p>
  <p>Normalmente se asignará  la respuesta del usuario a una variable, para realizar alguna acción definida en el programa.</p>
  
-*Texarea*
+**Texarea**
 <p>El textarea es un elemento que presenta un lugar para escribir texto, igual que los campos text, pero con la particularidad de  que puede escribir varias líneas a la vez.</p>
 <p>Un campo textarea se consigue con la etiqueta <TEXTAREA>. Con el atributo name se puede  dar un nombre para acceder al campo textarea mediante Javascript. Otros atributos  son cols y rows que sirven para indicar la anchura y altura del campo textarea en caracteres, cols indica el número de columnas y rows el de filas. Sin embargo, no se puede acceder a ellos con Javascript. El valor por defecto de un campo textarea se coloca entre las etiqueta <TEXTAREA> y su correspondiente cierre(Álvarez,2003).</p>
 
-*Propiedades de textarea*
+**Propiedades de textarea**
 <p>Se puede ver una lista de las propiedades disponibles en un textarea a continuación, que son los mismos que un campo de texto.</p>
 <p>defaultValue: que contiene el valor por defecto del textarea.</p>
 <p>value:que contiene el texto que hay escrito en el textarea.</p>
@@ -149,7 +149,7 @@
 
 **INGRESE IMAGEN AQUI**
 
-*Campo Text*
+**Campo Text**
 <p>Es el campo que resulta de escribir la etiqueta <INPUT type="text">. Se la usa para solicitar datos al usuario de la página.</p>
  <p>Propiedades del campo text</p>
  <p>defaultValue</p>
@@ -162,7 +162,7 @@
 
 **Estructuras condicionales**
 <p>Un script consiste en una lista de enunciados que se van ejecutando a medida que se cargan. Sin embargo, en ocasiones es necesario controlar el flujo de la ejecución estableciendo alternativas, es decir, que una serie de enunciados se ejecuten en algunas ocasiones y en otras no. Para permitir esto existen las estructuras condicionales.</p>
-*if...else*
+**if...else**
 <p>medio de if se puede indicar una condición que, de cumplirse, permite la ejecución de uno o más enunciados(Castillo,2017). Por medio de else se puede establecer una alternativa, aunque su uso es opcional.La sintaxis de esta estructura es la siguiente:</p>
 
 **INGRESE IMAGEN AQUI**
@@ -174,7 +174,7 @@
 
 **INGRESE IMAGEN AQUI**
 
-*Switch*
+**Switch**
 
 <p>Por medio de switch se puede listar una serie de bloques de enunciados que se ejecuten dependiendo del valor de una variable(Pérez,2019).La sintaxis es:</p>
 
@@ -186,11 +186,11 @@
 
 <p>Es importante finalizar con un break en cada caso ya este  indica que el bloque de código puede dejar de interpretarse cuando se haya dado una coincidencia.Por otra parte la especificación de default: es opcional. En este caso, si no se emplease simplemente no se lanzaría ninguna alerta en caso de que el valor de nombrePersonaje no coincidiese con ninguno de los nombres recogidos en switch.</p>
 
-*Operadores lógicos*
+**Operadores lógicos**
 
 <p>Los operadores lógicos amplían las posibilidades de establecer condiciones. Son:</p>
 
-*Operadores lógicos, sus significados y su sintaxis*
+**Operadores lógicos, sus significados y su sintaxis**
 
 <p>En el caso de !, se emplea cuando lo que se quiere comprobar no es la existencia de un objeto o variable, sino su no existencia. </p>
 
@@ -198,10 +198,12 @@
 
 **DIAGRAMAS**
 
- *Diagrama de flujo aplicación: “Adivina el número”*
+ **Diagrama de flujo aplicación: “Adivina el número”**
 
 **INGRESE IMAGEN AQUI**
-*Diagrama casos de uso-clase de la aplicación “Calculadora”*
+
+**Diagrama casos de uso-clase de la aplicación “Calculadora”**
+
 **INGRESE IMAGEN AQUI**
 
 **LISTA DE COMPONENTES**
@@ -214,13 +216,13 @@
 
 **EXPLICACIÓN DE CÓDIGO FUENTE**
 
-*Programa “Adivina número”*
+**Programa “Adivina número”**
 
 <p>Primero el programa crea un número aleatorio del 1 al 10 mediante la función Math.floor((Math.random() *10) + 1); este número se compara con el valor ingresado por el usuario realizando una entrada por teclado mediante la función parseInt(prompt('Adivina el número que estoy pensando del 1 al 10'))</p>
 <p>Si la comparación de estos dos números son distintos surgirá un alert mediante una condición if en donde si el número es mayor mostrará el mensaje 'el número es mayor' y si no lo es mostrara lo contrario.</p>
 <p>El proceso está condicionado por un while que mantendrá un bucle hasta que el número generado aleatoriamente por el computador deje de ser distinto al del usuario y en este caso surgirá un alert con las palabras: 'haz acertado'</p>
 
-*Programa “Calculadora“*
+**Programa “Calculadora“**
 
 <p>Primero el programa solicita que el usuario elija la operación a ejecutar mediante una estructura HTML posicionando botones, del mismo modo, se condiciona al botón a ejecutar cierta función una vez se dé click en él por ejemplo :</p>
 
@@ -256,8 +258,11 @@
 <p><li>-Java Script es un lenguaje de programación interpretado,por tal motivo, su estructura amerita de un lenguaje de etiquetado como HTML y CSS para poder ofrecer de una interfaz más amigable al usuario, se recomienda tener una idea base de un lenguaje HTML o CSS para poder realizar trabajos de mayor envergadura.</li> </p>
 
 **CRONOGRAMA**
+
 **INGRESE IMAGEN AQUI**
+
 **BIBLIOGRAFÍA**
+
 <p>Green, B., & Seshadri, S. (2013). AngularJS. " O'Reilly Media, Inc.".</p>
 <p>Gómez, D., Flores, Á., & Ureta, R. (2018). Programación Node. JS. Caribeña de Ciencias Sociales, (mayo).</p>
 <p>Pérez, J. E. (2019). introducción a JavaScript.</p>
@@ -269,6 +274,7 @@
 <p>Fard,A.M.(2017)JavaScript: las partes (no) cubiertas.</p>
 <p>Vidaković,M.(2018).Una solución para la ejecución de JavaScript en servidores de aplicaciones Java EE</p>
 **ANEXOS**
+
 **INGRESE MULTIPLES IMAGENES AQUI**
 
 
