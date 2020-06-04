@@ -173,9 +173,6 @@
 
 ![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen%205.jpg)
 
-<p>Además, las instrucciones se pueden vincular:</p>
-
-![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen%206%2C1.jpg)
 
 **Switch**
 
