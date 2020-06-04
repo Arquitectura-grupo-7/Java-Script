@@ -30,6 +30,8 @@
 
 <p> Trivandrum, India </p>
 
+<p>Este artículo permite visualizar a los bucles como estructuras importantes dentro de un programa, ya que permiten que ciertas partes del código se ejecuten mientras se cumplan las condiciones dadas como lo hemos aplicado en nuestro programa</p>
+
 **JavaScript: las partes (no) cubiertas**
 
 <p>Amin Milani Fard,Ali Mesbah?</P>
