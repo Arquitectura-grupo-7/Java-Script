@@ -18,7 +18,7 @@
 
 <p>16-19 de diciembre de 2015. </p>
 
-<p>En la investigación se dice que los bucles son estructuras importantes y por ende es primordial que sean eficientes. Las estructuras de control de bucle tradicionales son for y while, estas  permiten a los programadores escribir un sin número de construcciones de iteración; es por ello que tanto  lla modularidad y la compatibilidad son claves para una programación exitosa, en conjunto  ayudan a combatir la complejidad del software.</p>
+<p>En la investigación se dice que los bucles son estructuras importantes y por ende es primordial que sean eficientes. Las estructuras de control de bucle más tradicionales son for y while, estas  permiten a los programadores escribir un sin número de construcciones de iteración; es así que se manifiesta que tanto  la modularidad como la compatibilidad son claves para una programación exitosa, en conjunto  ayudan a combatir la complejidad del software.</p>
 
 <p>Entonces se sugiere que los combinadores de bucle son más expresivos que las estructuras de control de bucle, no obstante  son menos eficientes. Un combinador de bucles es una función que transforma una cinta de entrada. Por ejemplo, map y ﬁlter son combinadores de bucles que transforman listas.</p>
 
