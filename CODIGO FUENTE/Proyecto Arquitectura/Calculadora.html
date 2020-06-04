@@ -1,0 +1,119 @@
+<html>
+
+  <head>
+    <style>
+      .boton{
+        padding:5px 10px;
+        background-color:#ffffff
+      }
+      .rojo{
+        color: #ff0000;
+        border:1px solid #ff0000;
+      }
+      .rojo:hover{
+        background-color:#ff0000;
+        color:#ffffff;
+      }
+       .verde{
+         color: #008000;
+         border:1px solid #008000;
+       }
+       .verde:hover{
+         background-color:#008000;
+         color:#ffffff;
+       }
+       .azul{
+         color: #0073be;
+         border:1px solid #0073be;
+       }
+       .azul:hover{
+         background-color: #0073be;
+         color: #ffffff;
+       }
+       .morado{
+         color:  #9370db;
+         border:1px solid  #9370db;
+       }
+       .morado:hover{
+         background-color:  #9370db;
+         color: #ffffff;
+       }
+       .amarillo{
+         color: #e1df28;
+         border:1px solid #e1df28;
+       }
+       .amarillo:hover{
+         background-color: #e1df28;
+         color: #ffffff;
+       }
+       .cafe{
+         color: #785f1e;
+         border:1px solid #785f1e;
+       }
+       .cafe:hover{
+         background-color: #785f1e;
+         color: #ffffff;
+       }
+
+       .container{
+          border:1px solid #000;
+          widght:200px;
+          heigt: 200px;
+       }
+
+      </style>
+    <meta charset = 'UTF-8'>
+    <title>Calculadora</title>
+    <script src='JS/juego.js'></script>
+
+  </head>
+
+  <body>
+   <input type="button" class="boton rojo" value="suma" onclick="suma()" >
+   <input type="button" class="boton morado" value="resta" onclick="resta()" >
+   <input type="button" class="boton verde" value="multiplicar" onclick="multiplicacion()" >
+   <input type="button" class="boton amarillo" value="dividir" onclick="division()" >
+   <input type="button" class="boton azul" value="potencia" onclick="potencia()">
+   <input type="button" class="boton cafe" value="raiz" onclick="raiz()" >
+   <div class="container"></div>
+   <script>
+   window.addEventListener("load",inicializar);
+   function inicializar(){
+     botones = document.getElementsByTagName("input")
+     for(i=0;i<botones.length;i++)
+         botones[i].addEventListener("click",pintar)
+   }
+   function pintar(){
+     color = this.value;
+     var contenedor = document.getElementsByClassName("container")
+     var colorear = '#ffffff'
+    switch (color) {
+      case "verde":
+        colorear = "#008000";
+      break;
+      case "rojo":
+        colorear = "#ff0000";
+      break;
+      case "azul":
+        colorear = "#0073be";
+      break;
+      case "morado":
+        colorear = "#9370db";
+      break;
+      case "amarillo":
+        colorear = "#e1df28";
+      break;
+      case "cafe":
+        colorear = "#785f1e";
+      break;
+
+   }
+   contenedor.style.backgroundColor = colorear;
+    }
+   </script>
+
+  </body>
+
+
+
+</html>
