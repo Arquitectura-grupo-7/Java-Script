@@ -73,10 +73,12 @@
 <p><li>Detecta código que contiene errores.</li></p>
 
 *AngularJS*
+
 <p>Se trata de un framework MVC (Modelo Vista Controlador) de JavaScript de código abierto, desarrollado por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.</p>
 <p>Al usar un patrón MVVM (model view view-model) separamos la lógica de la de diseño pero mantenemos ambas partes conectadas (data binding). De manera que la capa visual no sabe lo que está pasando en la capa lógica pero manteniendo control sobre el DOM (el cuerpo de la web) y actualizar su contenido como queramos. (Green,2013)</p>
 
 *NodeJS*
+
 <p>Es un entorno de tiempo de ejecución de JavaScript en tiempo real, que se encuentra de lado de servidor y utiliza un modelo asíncrono y dirigido por eventos. Incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript.</p>
 <p>Se trata de una Máquina Virtual rápida y de gran calidad. Además las capacidades de Node.js para I/O (Entrada/Salida) son realmente ligeras y potentes, dando al desarrollador la posibilidad de utilizar toda la I/O del sistema.</p>}
 <p>Uno de sus puntos fuertes, es su capacidad de mantener muchas conexiones abiertas y esperando. (Gómez,2018)</p>
@@ -171,15 +173,25 @@
 <p>Además, las instrucciones se pueden vincular:</p>
 
 **INGRESE IMAGEN AQUI**
+
 *Switch*
+
 <p>Por medio de switch se puede listar una serie de bloques de enunciados que se ejecuten dependiendo del valor de una variable(Pérez,2019).La sintaxis es:</p>
+
 **INGRESE IMAGEN AQUI**
+
 <p>Ejemplo, analizar el valor de una variable y que dependiendo de éste se lanza un mensaje de alerta:</p>
+
 **INGRESE IMAGEN AQUI**
+
 <p>Es importante finalizar con un break en cada caso ya este  indica que el bloque de código puede dejar de interpretarse cuando se haya dado una coincidencia.Por otra parte la especificación de default: es opcional. En este caso, si no se emplease simplemente no se lanzaría ninguna alerta en caso de que el valor de nombrePersonaje no coincidiese con ninguno de los nombres recogidos en switch.</p>
+
 *Operadores lógicos*
+
 <p>Los operadores lógicos amplían las posibilidades de establecer condiciones. Son:</p>
+
 *Operadores lógicos, sus significados y su sintaxis*
+
 <p>En el caso de !, se emplea cuando lo que se quiere comprobar no es la existencia de un objeto o variable, sino su no existencia. </p>
 
 **INGRESE TABLA**
@@ -191,20 +203,29 @@
 **INGRESE IMAGEN AQUI**
 *Diagrama casos de uso-clase de la aplicación “Calculadora”*
 **INGRESE IMAGEN AQUI**
+
 **LISTA DE COMPONENTES**
 <p>Estos son los recursos que se han utilizado a lo largo del desarrollo del trabajo de investigación.</p>
 **INGRESE TABLA AQUI**
 
 **MAPA DE VARIABLES**
+
 **INGRESE TABLA AQUI**
+
 **EXPLICACIÓN DE CÓDIGO FUENTE**
+
 *Programa “Adivina número”*
+
 <p>Primero el programa crea un número aleatorio del 1 al 10 mediante la función Math.floor((Math.random() *10) + 1); este número se compara con el valor ingresado por el usuario realizando una entrada por teclado mediante la función parseInt(prompt('Adivina el número que estoy pensando del 1 al 10'))</p>
 <p>Si la comparación de estos dos números son distintos surgirá un alert mediante una condición if en donde si el número es mayor mostrará el mensaje 'el número es mayor' y si no lo es mostrara lo contrario.</p>
 <p>El proceso está condicionado por un while que mantendrá un bucle hasta que el número generado aleatoriamente por el computador deje de ser distinto al del usuario y en este caso surgirá un alert con las palabras: 'haz acertado'</p>
-*Programa “Calculadora*
+
+*Programa “Calculadora“*
+
 <p>Primero el programa solicita que el usuario elija la operación a ejecutar mediante una estructura HTML posicionando botones, del mismo modo, se condiciona al botón a ejecutar cierta función una vez se dé click en él por ejemplo :</p>
+
 <p><input type="button" class="boton rojo" value="suma" onclick="suma()" ></p>
+
 <p>para la función suma una vez el usuario digite mediante la función prompt el primer y segundo número a operar esta crea una segunda función la cual realiza la operación denominada suma 2.</p>
 <p>function suma(){</p>
 <p>numero1 = prompt('Introduce el primer numero entero');</p>
