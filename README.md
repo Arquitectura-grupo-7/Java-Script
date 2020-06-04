@@ -6,7 +6,7 @@
 
 ***OBJETIVOS ESPECÍFICOS***
 <p> <li>Identificar documentos recientes que tengan información acerca del lenguaje java script, para de esta manera conocer el objeto a investigar y las distintas aplicaciones en las que se encuentra.</li> </p>
-<p> <li>Comprender los usos y funcionalidades del lenguaje de programación tratado, por medio de la abstracción de varias consultas acerca del tema.   </li></p>
+<p> <li>Comprender los usos y operatividades del lenguaje de programación tratado, por medio de la abstracción de varias consultas acerca del tema.   </li></p>
 <p> <li>Dar una explicación acerca de las funcionalidades del lenguaje, de tal manera que esta sea comprensible y detallada. </li></p> 
 <p> <li> Desarrollar ejemplos básicos donde se evidencie el  lenguaje ya antes mencionado. </li></p>
 
