@@ -180,10 +180,12 @@
 **Switch**
 
 <p>Por medio de switch se puede listar una serie de bloques de enunciados que se ejecuten dependiendo del valor de una variable(Pérez,2019).La sintaxis es:</p>
+
 ![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen%206%2C1.jpg)
 
 
 <p>Ejemplo, analizar el valor de una variable y que dependiendo de éste se lanza un mensaje de alerta:</p>
+
 ![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen%206.jpg)
 
 
