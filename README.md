@@ -53,6 +53,8 @@
 <p>Fecha de la conferencia: 30-31 de mayo de 2018</p>
 <p>Fecha añadida a IEEE Xplore : 30 de agosto de 2018</p>
 
+<p>Los artículos correspondientes al estado del arte se relacionan con el trabajo, ya que abarcan los principales conceptos necesarios para el desarrollo de los programas. Además nos permite tener una visión más clara de las funciones del lenguaje de programación JavaScript, sus estructuras y deficiencias.</p>
+
 ***MARCO TEÓRICO***
 
 <p>¿Qué es javascript?</p>
