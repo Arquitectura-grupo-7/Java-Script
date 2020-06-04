@@ -2,7 +2,7 @@
 <p> <li>¿Qué es y cual es el funcionamiento del lenguaje de programación Java-Script y sus principales estructuras? </li> </p>
 
 ***OBJETIVO GENERAL***
-<p> Investigar los usos y estructuras principales de Javascript, por medio de la abstracción de información, para así poder conocer los usos que este tiene y posteriormente dar una explicación a la clase </p>
+<p> Investigar los usos y estructuras principales de Javascript, por medio de la abstracción de información, para así poder conocer las funcionalidades que este tiene y posteriormente dar una explicación a la clase </p>
 
 ***OBJETIVOS ESPECÍFICOS***
 <p> <li>Identificar documentos recientes que tengan información acerca del lenguaje java script, para de esta manera conocer el objeto a investigar y las distintas aplicaciones en las que se encuentra.</li> </p>
