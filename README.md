@@ -288,6 +288,7 @@
 <p>Vidaković,M.(2018).Una solución para la ejecución de JavaScript en servidores de aplicaciones Java EE</p>
 
 ***ANEXOS***
+
 ![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/IMAGEN%2015.jpg)
 
 ![](https://github.com/Arquitectura-grupo-7/Java-Script/blob/master/IMG/Imagen%2016.jpg)
