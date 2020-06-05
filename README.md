@@ -30,7 +30,7 @@
 
 <p> Trivandrum, India </p>
 
-<p>Este artículo permite visualizar a los bucles como estructuras importantes dentro de un programa, ya que permiten que ciertas partes del código se ejecuten mientras se cumplan las condiciones dadas como lo hemos aplicado en nuestro programa</p>
+
 
 **JavaScript: las partes (no) cubiertas**
 
@@ -42,6 +42,7 @@
 
 <p>Fecha de la conferencia: 13-17 de marzo de 2017</p>
 <p>Fecha añadida a IEEE Xplore: 18 de mayo de 2017</P>
+
 
 **Una solución para la ejecución de JavaScript en servidores de aplicaciones Java EE**
 
@@ -56,6 +57,14 @@
 <p>Fecha añadida a IEEE Xplore : 30 de agosto de 2018</p>
 
 <p>Los artículos correspondientes al estado del arte se relacionan con el trabajo, ya que abarcan los principales conceptos necesarios para el desarrollo de los programas. Además nos permite tener una visión más clara de las funciones del lenguaje de programación JavaScript, sus estructuras y deficiencias.</p>
+
+<p><li>Este primer  artículo permite visualizar a los bucles como estructuras importantes dentro de un programa, ya que posibilita a que ciertas partes del código se ejecuten mientras se cumplan las condiciones dadas además promueve el uso de combinadores de bucles,los cuales permiten que bloques de construcción muy simples se  pueden combinar para crear un comportamiento más funcional y eficaz .En el caso de nuestra investigación hemos investigado y aplicado los bucles tradicionales(for- do while) para el desarrollo de los programas .</li></p>
+ 
+<p><li>En el segundo artículo se desarrolla un estudio empírico de pruebas de Javascript para caracterizar la cobertura del código y sus principales deficiencias ,tras analizar un conjunto de datos representativos se obtiene como resultado que en el lado del cliente no tienen una  prueba mientras en el lado del servidor si la tienen e  incluso de mejor calidad.   Este estudio es importante ya que permite reconocer los beneficios que como desarrollador se tiene frente al cliente y cómo mejorar dicha relación.</li></p>
+ 
+<p><li>En el último artículo  se detalla una solución que permite la ejecución de lenguajes script  <Javascript>dentro de la VM Java a fin de llamar a otros módulos Java EE dentro del código,esto permite saber que se puede  ejecutar un código javascript dentro de la máquina virtual de Java,y que no por eso se ejecuta más lento.</li></p>
+ 
+ 
 
 ***MARCO TEÓRICO***
 
